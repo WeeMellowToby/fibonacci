@@ -6,6 +6,9 @@ var fibonnaciString = ""
 
 
   function numberSubmitted() {
+    number2 = 1;
+    number1 = 1;
+    var fibonnaciString = ""
     let amount = document.getElementById("number").value;
     for (let i = 0; i < amount; i++) {
         let tempnumber = number2;
